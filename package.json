@@ -2,5 +2,5 @@
   "name": "shared-modules",
   "version": "0.0.0",
   "description": "shared-modules",
-  "main": "welcome.js"
+  "main": "shared-modules.js"
  }
