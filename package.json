@@ -2,9 +2,6 @@
   "name": "welcome",
   "version": "0.0.0",
   "description": "Welcome Module",
-  "main": "welcome.js",
-  "dependencies": {
-      "dataaccess": "file:./dataaccess"
-    }  
+  "main": "welcome.js"
 
  }
