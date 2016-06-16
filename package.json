@@ -4,4 +4,10 @@
   "description": "Welcome Module",
   "main": "welcome.js"
 
+  ,
+  "dependencies": {
+      "dataaccess": "file:./dataaccess"
+    }  
+    
+
  }
