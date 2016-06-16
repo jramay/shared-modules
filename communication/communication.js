@@ -7,6 +7,6 @@
  */
 module.exports = {
 	message : function(userName){
-		return 'This is Data Access : '+userName;	
+		return 'This is Communication : '+userName;	
 	}
 };

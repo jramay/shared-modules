@@ -1,8 +1,7 @@
-var welcome = require('./welcome.js');
-console.log(welcome('Jaffar Ramay'));
+var sharedModules = require('./shared-modules.js');
+var dataaccess    = sharedModules.getModule('dataaccess');
+var communication    = sharedModules.getModule('communication');
 
-
-/*
-var dataaccess = require('dataaccess');
-console.log(dataaccess('Jaffar Ramay'));
-*/
+console.log(sharedModules);
+console.log(dataaccess.message('Jaffar Ramay'));
+console.log(communication.message('Muhammad Jaffar Ramay'));
