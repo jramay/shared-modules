@@ -1,0 +1,6 @@
+{
+  "name": "dataaccess",
+  "version": "0.0.0",
+  "description": "Data Access.js Module",
+  "main": "dataaccess.js"
+ }
